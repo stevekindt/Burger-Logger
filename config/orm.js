@@ -38,7 +38,7 @@ function objToSql(ob) {
 // Object for all our SQL statement functions.
 var orm = {
   // Function that returns all table data
-  selectAall: function(tableInput, cb) {
+  selectAll: function(tableInput, cb) {
     // Returns all rows from the table
     var queryString = "SELECT * FROM " + tableInput + ";";
     // Database query

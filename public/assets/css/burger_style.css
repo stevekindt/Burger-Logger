@@ -1,0 +1,26 @@
+#notDevoured {
+  border: 2px solid lightblue;
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+#addBurger {
+  margin: auto;
+  width: 200px;
+  position: relative;
+  top: 100px;
+}
+
+#devoured {
+  float: right;
+  position: relative;
+  top: 50px;
+  border: 2px solid lightblue;
+  width: 300px;
+  margin-right: 50px;
+}
+
+#burger {
+  margin: auto;
+}

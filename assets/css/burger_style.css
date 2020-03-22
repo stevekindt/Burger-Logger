@@ -1,0 +1,42 @@
+main {
+  background-color: rgb(255, 255, 0);
+}
+
+img {
+  float: right;
+  height: 240px;
+  width: 500px;
+  margin-right: 60px;
+  padding-bottom: 25px;
+}
+
+.jumbotron {
+  margin-top: 5px;
+}
+
+#devourMe {
+  float: right;
+}
+
+#newBurger {
+  border-radius: 3px;
+}
+
+#notDevoured {
+  background-color: lightblue;
+  color: rgb(220, 0, 220);
+  text-align: center;
+}
+
+#addBurger {
+  margin: auto;
+  width: 200px;
+  position: relative;
+  top: 100px;
+}
+
+#devoured {
+  background-color: darkblue;
+  color: rgb(106, 255, 0);
+  text-align: center;
+}

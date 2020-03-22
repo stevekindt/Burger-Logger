@@ -1,5 +1,5 @@
 // Import MySQL connection
-var connection = require("../config/connection.js");
+const connection = require("../config/connection.js");
 
 // Helper function for SQL syntax from Activity 16.
 function printQuestionMarks(num) {
@@ -38,9 +38,9 @@ function objToSql(ob) {
 // Object for all our SQL statement functions.
 var orm = {
   // Function that returns all table data
-  selectAll: function(tableInput, cb) {
+  selectAll: function(table, cb) {
     // Returns all rows from the table
-    var queryString = "SELECT * FROM " + tableInput + ";";
+    var queryString = "SELECT * FROM " + table + ";";
     // Database query
     connection.query(queryString, function(err, result) {
       if (err) {

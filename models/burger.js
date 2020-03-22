@@ -1,5 +1,5 @@
 // Import orm.js into burger.js to create functions that will interact with the database.
-var orm = require("../config/orm.js");
+const orm = require("../config/orm.js");
 
 const burger = {
   // Display all burgers in the database

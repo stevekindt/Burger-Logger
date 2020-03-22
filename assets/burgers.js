@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
   });
 
-  $("#devourMe").on("click", function(event) {
+  $(".eatburger").on("click", function(event) {
     event.preventDefault();
 
     var id = $(this).data("id");

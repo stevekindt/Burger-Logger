@@ -1,7 +1,7 @@
 <main>
     <div class="container">
         <div class="jumbotron">
-            <h1>Let's Eat Some Burgers! <img src="../assets/img/burger.png"></h1>
+            <h1><strong>Let's Eat Some Burgers!</strong> <img src="../assets/img/burger.png"></h1>
         </div>
         <div class="row">
             <div class="col-sm-6">
@@ -29,9 +29,8 @@
                             {{#each burgers}}
                             {{#if devoured}}
                             <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
-                            <button type="button" class="trashburger btn btn-danger" id="trashbutton"
-                                data-id="{{this.id}}" data-newDevoured="{{devour}}"><i
-                                    class="far fa-trash-alt"></i></button>
+                            <button type="button" class="btn btn-danger" id="trashbutton" data-id="{{this.id}}"
+                                data-newDevoured="{{devour}}"><i class="far fa-trash-alt"></i></button>
                             <hr>
                             {{/if}}
                             {{/each}}
@@ -44,13 +43,15 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <form class="create-form">
-                    <div class="form-group">
-                        <label for="newBurger">New Burger Name:</label>
-                        <input type="text" id="newBurger" name="burger" placeholder="Enter new burger!">
-                        <button id="addBurger" type="submit" class="btn btn-success">Add Your Burger</button>
-                    </div>
-                </form>
+                <panel>
+                    <form class="create-form">
+                        <div class="form-group">
+                            <label for="newBurger">New Burger Name:</label>
+                            <input type="text" id="newBurger" name="burger" placeholder="Enter new burger!">
+                            <button id="addBurger" type="submit" class="btn btn-success">Add Your Burger</button>
+                        </div>
+                    </form>
+                </panel>
             </div>
         </div>
     </div>

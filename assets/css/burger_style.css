@@ -4,14 +4,14 @@ main {
 
 img {
   float: right;
-  height: 240px;
-  width: 500px;
+  height: 153px;
+  width: 212px;
   margin-right: 60px;
   padding-bottom: 25px;
 }
 
 .jumbotron {
-  margin-top: 5px;
+  background-color: #72b5f9 !important;
 }
 
 #devourMe {
